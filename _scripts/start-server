@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd $HOME/unrealgold/System
+
+./UCCLinux.bin server DMAriza.unr -nohomedir -log

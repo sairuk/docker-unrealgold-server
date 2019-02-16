@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -u
+
+BASEDIR=${1:-}
+
+cd "$BASEDIR"
+sudo docker build . -t $(basename $BASEDIR)

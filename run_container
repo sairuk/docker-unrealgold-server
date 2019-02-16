@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# launch new
+docker run -d --rm \
+-p 7777:7777/udp \
+-p 7778:7778/udp \
+-p 27900:27900/tcp \
+--name unrealgold-server \
+unrealgold-server:latest
+
